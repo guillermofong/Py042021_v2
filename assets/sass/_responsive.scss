@@ -1,0 +1,43 @@
+
+@media screen  and (max-width: 970px) {
+    .hero{
+        &-announcement{
+            width: 300px;
+        }
+    }
+
+}
+
+@media screen  and (max-width: 767px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .card {
+        .columns{
+            flex-direction: column;
+            width: 100%;
+        }
+}
+
+@media screen  and (max-width: 600px) {
+    nav{
+
+        img{
+            display: none;
+        }
+
+        ul{
+            flex-direction: column;
+        }
+    }
+
+ .card {
+     .card-1{
+         display: none;
+     }
+
+ }
+
+}
+}

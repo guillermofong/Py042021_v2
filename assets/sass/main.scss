@@ -1,0 +1,21 @@
+$primary-color: royalblue;
+$light-royalblue: lighten(royalblue,50);
+
+@import 'header';
+@import 'cards';
+@import 'buttons';
+
+body{
+    // background-color:  #acc8e2;
+    // background-color:linear-gradient(royalblue,yellow);
+    background-image: linear-gradient(royalblue, $light-royalblue);
+    // background-color:royalblue;
+    // max-width: 1100px;
+    // margin-right: auto;
+    // margin-left: auto;
+}
+
+@import 'responsive';
+
+
+
