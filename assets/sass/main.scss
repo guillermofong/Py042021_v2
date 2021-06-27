@@ -13,6 +13,42 @@ body{
     // margin-right: auto;
     // margin-left: auto;
 }
+.misc{
+    display: flex;
+    padding-top: 0;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60vh;
+
+    .feature_problem{
+        width:20%;
+        padding: 10px;
+        height: auto;
+        border-style: solid;
+        border-radius: 10px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.videos{
+    width: 100%;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 70px;
+    color: gray;
+}
 
 @import 'responsive';
 

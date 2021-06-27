@@ -181,6 +181,48 @@ body {
   background-image: linear-gradient(royalblue, white);
 }
 
+.misc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 60vh;
+}
+
+.misc .feature_problem {
+  width: 20%;
+  padding: 10px;
+  height: auto;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.misc .feature_problem img {
+  width: 100%;
+}
+
+.videos {
+  width: 100%;
+  margin-left: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 70px;
+  color: gray;
+}
+
 @media screen and (max-width: 970px) {
   .hero-announcement {
     width: 300px;
