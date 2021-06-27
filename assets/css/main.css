@@ -1,0 +1,159 @@
+.container {
+  padding-top: 0;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: yellow;
+  z-index: 10;
+  max-width: 100%;
+  padding: 10px;
+}
+.container nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.container nav li {
+  padding: 0 10px;
+}
+.container nav li:hover {
+  color: chocolate;
+}
+
+.hero {
+  background-image: url("../images/math_blackboard.png");
+  height: 70vh;
+  border-radius: 5px;
+}
+.hero-announcement {
+  background-color: rgba(169, 189, 245, 0.75);
+  border-radius: 8px;
+  padding: 20px;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+.hero-announcement .email-signup {
+  display: flex;
+}
+.hero-announcement .email-signup input {
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.content {
+  padding-top: 0;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  display: flex;
+  height: 70vh;
+  padding-top: 60px;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.card img {
+  width: 30px;
+  padding: auto;
+}
+.card-1 {
+  width: 33%;
+  display: block;
+  align-self: center;
+  margin-left: 15px;
+}
+.card-1 img {
+  padding-left: 25px;
+}
+.card .columns {
+  display: flex;
+  width: 66%;
+}
+.card .columns .columns-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+.card .columns .columns-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.card-2, .card-3, .card-4, .card-5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  margin: 15px 0;
+  width: 90%;
+  height: 40%;
+  background-color: #839deb;
+}
+.card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover {
+  background-color: royalblue;
+}
+.card-2 img, .card-3 img, .card-4 img, .card-5 img {
+  padding-top: 15px;
+  width: 40px;
+}
+.card .container {
+  padding: 2px 16px;
+}
+
+.btn-1 {
+  background-color: #fc8f01;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-1:hover {
+  transform: scale(0.94);
+}
+
+body {
+  background-image: linear-gradient(royalblue, white);
+}
+
+@media screen and (max-width: 970px) {
+  .hero-announcement {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .card .columns {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 600px) {
+  nav img {
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  .card .card-1 {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,3 +1,5 @@
+@import 'variables';
+
 .container{
     padding-top: 0;
     max-width: 1200px;
@@ -11,11 +13,14 @@
         align-items: center;
         // background-color: #FFEB3B;
         // background-color: #87ace4;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        // font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: $medium;
         color: yellow;
         z-index: 10;
         max-width: 100%;
         padding: 10px;
+        font-weight: 700;
 
         ul{
             display: flex;

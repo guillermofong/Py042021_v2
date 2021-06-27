@@ -1,6 +1,5 @@
-$primary-color: royalblue;
-$light-royalblue: lighten(royalblue,50);
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import 'variables';
 @import 'header';
 @import 'cards';
 @import 'buttons';
