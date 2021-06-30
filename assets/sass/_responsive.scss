@@ -14,10 +14,27 @@
     }
 
     .card {
+        height: auto;
         .columns{
             flex-direction: column;
             width: 100%;
+            // height: auto;
         }
+    }
+
+    .misc {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .feature_problem {
+        align-self: center;
+        width: 100%;
+    }
+    
 }
 
 @media screen  and (max-width: 600px) {
@@ -39,5 +56,4 @@
 
  }
 
-}
 }

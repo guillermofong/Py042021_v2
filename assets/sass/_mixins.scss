@@ -1,7 +1,7 @@
-@mixin card_properties {
+@mixin card_properties($alignment : center) {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
-    text-align: center;
+    text-align: $alignment;
     margin: 15px 0;
     width: 90%;
     height: 40%;
