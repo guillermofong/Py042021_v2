@@ -161,7 +161,7 @@
   padding: 2px 16px;
 }
 
-.misc {
+.math_section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,7 +172,7 @@
   height: 60vh;
 }
 
-.misc .feature_problem {
+.math_section .feature_problem {
   width: 20%;
   padding: 10px;
   height: auto;
@@ -181,7 +181,7 @@
   text-align: center;
 }
 
-.misc .feature_problem img {
+.math_section .feature_problem img {
   width: 100%;
 }
 
@@ -195,12 +195,6 @@
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   grid-gap: 50px;
-}
-
-footer {
-  text-align: center;
-  padding-top: 70px;
-  color: gray;
 }
 
 .btn-1 {
@@ -222,6 +216,12 @@ body {
   background-image: linear-gradient(royalblue, white);
   margin-left: 0;
   margin-right: 0;
+}
+
+footer {
+  text-align: center;
+  padding-top: 70px;
+  color: gray;
 }
 
 @media screen and (max-width: 970px) {
